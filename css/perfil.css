@@ -1,0 +1,133 @@
+/* ============================================================
+   PERFIL ANIMAL — PÁGINA DE DETALLE
+   ============================================================ */
+
+/* Breadcrumb bar */
+.breadcrumb-bar {
+  background: var(--warm-white);
+  border-bottom: 1px solid var(--border-soft);
+  padding: 12px 0;
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.82rem;
+  color: var(--text-soft);
+}
+
+.breadcrumb a {
+  color: var(--terracotta);
+  font-weight: 500;
+  transition: opacity 0.2s;
+}
+
+.breadcrumb a:hover { opacity: 0.7; }
+.breadcrumb span { color: var(--text-soft); }
+
+/* Mini gallery below main image */
+.perfil-mini-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.perfil-mini-img {
+  border-radius: 10px;
+  overflow: hidden;
+  aspect-ratio: 4/3;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.perfil-mini-img:first-child {
+  border-color: var(--terracotta);
+}
+
+.perfil-mini-img:hover {
+  border-color: var(--terracotta);
+  transform: scale(1.02);
+}
+
+.perfil-mini-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Related animals horizontal scroll */
+.related-track-wrap {
+  overflow-x: auto;
+  padding-bottom: 8px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.related-track-wrap::-webkit-scrollbar {
+  height: 4px;
+}
+
+.related-track-wrap::-webkit-scrollbar-track {
+  background: var(--border-soft);
+  border-radius: 2px;
+}
+
+.related-track-wrap::-webkit-scrollbar-thumb {
+  background: var(--terracotta);
+  border-radius: 2px;
+}
+
+.related-track {
+  display: flex;
+  gap: 20px;
+  padding: 4px 0;
+  width: max-content;
+}
+
+.related-card {
+  width: 200px;
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid var(--border-soft);
+  background: var(--cream);
+  transition: all 0.3s ease;
+  flex-shrink: 0;
+}
+
+.related-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--border);
+}
+
+.related-card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+
+.related-card-body {
+  padding: 14px;
+}
+
+.related-card-body h4 {
+  font-family: var(--serif);
+  font-size: 1rem;
+  color: var(--charcoal);
+  margin-bottom: 4px;
+}
+
+.related-card-body p {
+  font-size: 0.78rem;
+  color: var(--text-soft);
+  margin-bottom: 8px;
+}
+
+/* Responsive adjustments for perfil */
+@media (max-width: 768px) {
+  .perfil-mini-gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
