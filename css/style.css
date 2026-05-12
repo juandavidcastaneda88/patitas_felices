@@ -140,7 +140,7 @@ section { padding: 96px 0; }
 }
 
 /* ============================================================
-   HEADER / NAV
+   HEADER / NAV navegador principal
    ============================================================ */
 header {
   position: sticky;
@@ -376,7 +376,7 @@ nav ul .btn-nav-cta:hover {
   margin-top: 4px;
 }
 
-/* Juan_David carousel */
+/*Carusel fotos inicio*/
 .Juan_David-visual {
   position: relative;
   animation: Juan_DavidFadeIn 1.1s ease-out 0.3s both;
