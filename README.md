@@ -22,7 +22,7 @@ patitas_felices/
  
 ### `index.html` — Página principal
 Contiene todas las secciones del sitio:
-- **Hero / Banner** — Presentación de la fundación con carrusel de imágenes y estadísticas destacadas.
+- **Juan_David / Banner** — Presentación de la fundación con carrusel de imágenes y estadísticas destacadas.
 - **Resumen / Quick Actions** — Accesos rápidos a Adoptar, Donar, Voluntariado y Apadrinamiento.
 - **Misión y Visión** — Descripción de los valores y objetivos de la fundación.
 - **Galería** — Muestra fotográfica de los animales rescatados.
