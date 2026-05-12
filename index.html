@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fundación Patitas Felices — Rescate, Cuidado y Amor Animal</title>
+  <meta name="description" content="Fundación sin ánimo de lucro dedicada al rescate, rehabilitación y reubicación de animales en situación de vulnerabilidad.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ============================
+       HEADER / NAV
+       ============================ -->
+  <header>
+    <nav>
+      <a href="#hero" class="nav-brand">
+        <div class="nav-logo-icon">🐾</div>
+        Patitas Felices
+      </a>
+      <h3>Juan David Castaneda</h3>
+
+      <!-- Mobile checkbox hack -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
+      <label for="nav-toggle" class="nav-hamburger" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </label>
+
+      <ul>
+        <li><a href="#mision-vision">Nosotros</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#adoptar">Adoptar</a></li>
+        <li><a href="#testimonios">Historias</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="#adoptar" class="btn-nav-cta">🐶 Adopta hoy</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ============================
+         HERO / BANNER PRINCIPAL
+         ============================ -->
+    <section id="hero">
+      <div class="hero-bg-shape">
+        <div class="hero-blob-1"></div>
+        <div class="hero-blob-2"></div>
+        <div class="hero-dots"></div>
+      </div>
+
+      <div class="hero-inner">
+
+        <div class="hero-content">
+          <span class="hero-eyebrow">🐾 Fundación sin ánimo de lucro · Desde 2015</span>
+          <h1 class="hero-title">
+            Cada vida<br>animal merece<br>una <span class="accent">segunda</span><br>oportunidad
+          </h1>
+          <p class="hero-tagline">porque las patitas también sienten 🐾</p>
+          <p class="hero-desc">
+            Rescatamos, rehabilitamos y reubicamos animales en situación de vulnerabilidad.
+            Construimos familias llenas de amor, pelaje y felicidad.
+          </p>
+          <div class="hero-cta-group">
+            <a href="#adoptar" class="btn btn-primary">🐾 Adopta un amigo</a>
+            <a href="#mision-vision" class="btn btn-outline">Conócenos</a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="hero-stat-item">
+              <div class="hero-stat-num">+2.400</div>
+              <div class="hero-stat-label">Animales rescatados</div>
+            </div>
+            <div class="hero-stat-item">
+              <div class="hero-stat-num">+1.800</div>
+              <div class="hero-stat-label">Familias adoptantes</div>
+            </div>
+            <div class="hero-stat-item">
+              <div class="hero-stat-num">9</div>
+              <div class="hero-stat-label">Años de labor</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-carousel">
+            <div class="hero-carousel-track">
+              <!-- Slide 1 -->
+              <div class="hero-carousel-slide">
+                <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80" alt="Perro rescatado feliz">
+                <div class="slide-caption">🐶 Max encontró su hogar para siempre</div>
+              </div>
+              <!-- Slide 2 -->
+              <div class="hero-carousel-slide">
+                <img src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=600&q=80" alt="Cachorros esperando adopción">
+                <div class="slide-caption">🐕 Cachorros esperando una familia</div>
+              </div>
+              <!-- Slide 3 -->
+              <div class="hero-carousel-slide">
+                <img src="https://images.unsplash.com/photo-1548546738-8509cb246ed3?w=600&q=80" alt="Gato rescatado">
+                <div class="slide-caption">🐱 Luna, rehabilitada en 3 semanas</div>
+              </div>
+              <!-- Slide 4 -->
+              <div class="hero-carousel-slide">
+                <img src="https://images.unsplash.com/photo-1601758174493-45d0a4d3e407?w=600&q=80" alt="Voluntario con perros">
+                <div class="slide-caption">💛 Nuestros voluntarios en acción</div>
+              </div>
+              <!-- Slide 5 -->
+              <div class="hero-carousel-slide">
+                <img src="https://images.unsplash.com/photo-1450778869180-41d0601e046e?w=600&q=80" alt="Perros rescatados">
+                <div class="slide-caption">🏡 Cada rescate es una historia de amor</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-dots">
+            <span></span><span></span><span></span><span></span><span></span>
+          </div>
+
+          <div class="hero-badge">
+            <div class="hero-badge-inner">100%<br>Amor<br>🐾</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================
+         RESUMEN / QUICK ACTIONS
+         ============================ -->
+    <section id="resumen">
+      <div class="resumen-grid">
+        <div class="resumen-card">
+          <span class="resumen-icon">🐾</span>
+          <h3>Adoptar</h3>
+          <p>Abre tu corazón y tu hogar. Tenemos perros, gatos y más animales esperando tu amor.</p>
+          <a href="#adoptar" class="btn-sm">Ver animales →</a>
+        </div>
+        <div class="resumen-card">
+          <span class="resumen-icon">💛</span>
+          <h3>Donar</h3>
+          <p>Tu donación cubre alimento, veterinaria y cuidado diario para los animales en nuestro refugio.</p>
+          <a href="#contacto" class="btn-sm">Donar ahora →</a>
+        </div>
+        <div class="resumen-card">
+          <span class="resumen-icon">🙌</span>
+          <h3>Voluntariado</h3>
+          <p>Dedica unas horas a la semana. Necesitamos pasear, alimentar, socializar y transportar animales.</p>
+          <a href="#contacto" class="btn-sm">Ser voluntario →</a>
+        </div>
+        <div class="resumen-card">
+          <span class="resumen-icon">📞</span>
+          <h3>Contacto</h3>
+          <p>¿Encontraste un animal en la calle? ¿Quieres reportar maltrato? Contáctanos de inmediato.</p>
+          <a href="#contacto" class="btn-sm">Escribirnos →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================
+         MISIÓN Y VISIÓN
+         ============================ -->
+    <section id="mision-vision">
+      <div class="container">
+        <div class="mv-header">
+          <span class="label-tag">Quiénes somos</span>
+          <h2 class="section-title">Misión & Visión</h2>
+          <p class="section-subtitle" style="margin: 12px auto 0;">Nacimos del amor profundo por los animales y la convicción de que cada vida importa.</p>
+        </div>
+
+        <div class="mv-grid">
+
+          <div class="mv-card mv-card-mision">
+            <div class="mv-card-bg">🐾</div>
+            <div class="mv-icon">🎯</div>
+            <h3>Nuestra Misión</h3>
+            <p>
+              Rescatar, rehabilitar y reubicar animales en situación de abandono, maltrato o vulnerabilidad,
+              brindándoles atención médica, amor y un hogar seguro mientras encontramos familias responsables
+              que los adopten de forma permanente.
+            </p>
+            <ul>
+              <li>Rescate de animales en situación de calle</li>
+              <li>Rehabilitación física y emocional</li>
+              <li>Procesos de adopción responsable</li>
+              <li>Educación y sensibilización comunitaria</li>
+            </ul>
+          </div>
+
+          <div class="mv-card mv-card-vision">
+            <div class="mv-card-bg">✨</div>
+            <div class="mv-icon">🔭</div>
+            <h3>Nuestra Visión</h3>
+            <p>
+              Ser la fundación de referencia en Colombia para la protección y bienestar animal,
+              construyendo comunidades más empáticas donde el abandono y el maltrato sean historia
+              del pasado, y cada animal tenga una familia que lo ame.
+            </p>
+            <ul>
+              <li>Cero animales en situación de calle</li>
+              <li>Red nacional de hogares de paso</li>
+              <li>Políticas públicas de bienestar animal</li>
+              <li>Cultura de tenencia responsable</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================
+         GALERÍA / MOSAICO
+         ============================ -->
+    <section id="galeria">
+      <div class="container">
+        <div class="galeria-header">
+          <span class="label-tag">Nuestro trabajo</span>
+          <h2 class="section-title">Momentos que <em style="font-style:italic;color:var(--terracotta)">importan</em></h2>
+          <p class="section-subtitle">Capturas reales de rescates, jornadas de adopción y el día a día en el refugio.</p>
+        </div>
+
+        <div class="galeria-mosaic">
+          <div class="galeria-item">
+            <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=800&q=80" alt="Perros en el refugio">
+            <div class="galeria-overlay"><span>Vida en el refugio 🏠</span></div>
+          </div>
+          <div class="galeria-item">
+            <img src="https://images.unsplash.com/photo-1592754862816-1a21a4ea2281?w=400&q=80" alt="Gatito rescatado">
+            <div class="galeria-overlay"><span>Rescate felino 🐱</span></div>
+          </div>
+          <div class="galeria-item">
+            <img src="https://images.unsplash.com/photo-1529429617124-95b109e86bb8?w=400&q=80" alt="Jornada de adopción">
+            <div class="galeria-overlay"><span>Jornada de adopción 💛</span></div>
+          </div>
+          <div class="galeria-item">
+            <img src="https://images.unsplash.com/photo-1601758174493-45d0a4d3e407?w=600&q=80" alt="Voluntarios con animales">
+            <div class="galeria-overlay"><span>Voluntarios en acción 🙌</span></div>
+          </div>
+          <div class="galeria-item">
+            <img src="https://images.unsplash.com/photo-1518717758536-85ae29035b6d?w=400&q=80" alt="Perro rehabilitado">
+            <div class="galeria-overlay"><span>Rehabilitación 💪</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================
+         CARRUSEL SECUNDARIO
+         ============================ -->
+    <section id="carrusel-secundario">
+      <div class="carrusel-sec-header">
+        <span class="label-tag">Galería en movimiento</span>
+        <h2 class="section-title">Más momentos <span style="font-style:italic;color:var(--sage)">especiales</span></h2>
+      </div>
+
+      <div class="carrusel-track-wrap">
+        <div class="carrusel-track">
+          <!-- Set 1 -->
+          <div class="cs-slide">
+            <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400&q=75" alt="Perro feliz">
+            <span class="cs-label">Rescate 2024</span>
+          </div>
+          <div class="cs-slide">
+            <img src="https://images.unsplash.com/photo-1615789591457-74a63395c990?w=400&q=75" alt="Gatito tierno">
+            <span class="cs-label">Hogar de paso</span>
+          </div>
+          <div class="cs-slide">
+            <img src="https://images.unsplash.com/photo-1537151625747-768eb6cf92b2?w=400&q=75" alt="Perro en adopción">
+            <span class="cs-label">Adopción exitosa</span>
+          </div>
+          <div class="cs-slide">
+            <img src="https://images.unsplash.com/photo-1548802673-380ab8ebc7b7?w=400&q=75" alt="Gatos rescatados">
+            <span class="cs-label">Colonia felina</span>
+          </div>
+          <div class="cs-slide">
+            <img src="https://images.unsplash.com/photo-1517423440428-a5a00ad493e8?w=400&q=75" alt="Perros jugando">
+            <span class="cs-label">Jornada de juego</span>
+          </div>
+          <div class="cs-slide">
+            <img src="https://images.unsplash.com/photo-1596492784531-6e6eb5ea9993?w=400&q=75" alt="Cachorro">
+            <span class="cs-label">Nuevos cachorros</span>
+          </div>
+          <!-- Set 2 (duplicado para scroll infinito) -->
+          <div class="cs-slide">
+            <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400&q=75" alt="Perro feliz">
+            <span class="cs-label">Rescate 2024</span>
+          </div>
+          <div class="cs-slide">
+            <img src="https://images.unsplash.com/photo-1615789591457-74a63395c990?w=400&q=75" alt="Gatito tierno">
+            <span class="cs-label">Hogar de paso</span>
+          </div>
+          <div class="cs-slide">
+            <img src="https://images.unsplash.com/photo-1537151625747-768eb6cf92b2?w=400&q=75" alt="Perro en adopción">
+            <span class="cs-label">Adopción exitosa</span>
+          </div>
+          <div class="cs-slide">
+            <img src="https://images.unsplash.com/photo-1548802673-380ab8ebc7b7?w=400&q=75" alt="Gatos rescatados">
+            <span class="cs-label">Colonia felina</span>
+          </div>
+          <div class="cs-slide">
+            <img src="https://images.unsplash.com/photo-1517423440428-a5a00ad493e8?w=400&q=75" alt="Perros jugando">
+            <span class="cs-label">Jornada de juego</span>
+          </div>
+          <div class="cs-slide">
+            <img src="https://images.unsplash.com/photo-1596492784531-6e6eb5ea9993?w=400&q=75" alt="Cachorro">
+            <span class="cs-label">Nuevos cachorros</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================
+         ADOPTAR / CATÁLOGO
+         ============================ -->
+    <section id="adoptar">
+      <div class="container">
+        <div class="adoptar-header">
+          <div>
+            <span class="label-tag">Encuentra tu compañero</span>
+            <h2 class="section-title">Animales disponibles</h2>
+          </div>
+          <a href="#contacto" class="btn btn-primary">Ver todos →</a>
+        </div>
+
+        <div class="animals-grid">
+
+          <!-- Card 1 -->
+          <div class="animal-card">
+            <div class="animal-img-wrap">
+              <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400&q=75" alt="Bongo">
+              <span class="animal-status status-available">Disponible</span>
+            </div>
+            <div class="animal-body">
+              <h3 class="animal-name">Bongo</h3>
+              <div class="animal-meta">
+                <span class="animal-meta-item">🎂 2 años</span>
+                <span class="animal-meta-item">⚖️ Grande</span>
+                <span class="animal-meta-item">♂️ Macho</span>
+              </div>
+              <p class="animal-breed">Pastor Alemán cruzado</p>
+              <a href="perfil-animal.html" class="btn-perfil">Ver perfil</a>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="animal-card">
+            <div class="animal-img-wrap">
+              <img src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=400&q=75" alt="Luna">
+              <span class="animal-status status-available">Disponible</span>
+            </div>
+            <div class="animal-body">
+              <h3 class="animal-name">Luna</h3>
+              <div class="animal-meta">
+                <span class="animal-meta-item">🎂 1 año</span>
+                <span class="animal-meta-item">⚖️ Mediana</span>
+                <span class="animal-meta-item">♀️ Hembra</span>
+              </div>
+              <p class="animal-breed">Mestiza / Labrador mix</p>
+              <a href="perfil-animal.html" class="btn-perfil">Ver perfil</a>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="animal-card">
+            <div class="animal-img-wrap">
+              <img src="https://images.unsplash.com/photo-1548546738-8509cb246ed3?w=400&q=75" alt="Mochi">
+              <span class="animal-status status-available">Disponible</span>
+            </div>
+            <div class="animal-body">
+              <h3 class="animal-name">Mochi</h3>
+              <div class="animal-meta">
+                <span class="animal-meta-item">🎂 3 años</span>
+                <span class="animal-meta-item">⚖️ Pequeño</span>
+                <span class="animal-meta-item">♂️ Macho</span>
+              </div>
+              <p class="animal-breed">Gato doméstico / Tigrado</p>
+              <a href="perfil-animal.html" class="btn-perfil">Ver perfil</a>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="animal-card adopted">
+            <div class="animal-img-wrap">
+              <img src="https://images.unsplash.com/photo-1537151625747-768eb6cf92b2?w=400&q=75" alt="Rex">
+              <span class="animal-status status-adopted">Adoptado 🎉</span>
+            </div>
+            <div class="animal-body">
+              <h3 class="animal-name">Rex</h3>
+              <div class="animal-meta">
+                <span class="animal-meta-item">🎂 5 años</span>
+                <span class="animal-meta-item">⚖️ Grande</span>
+                <span class="animal-meta-item">♂️ Macho</span>
+              </div>
+              <p class="animal-breed">Rottweiler mestizo</p>
+              <span class="btn-perfil">¡Ya tiene familia!</span>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="animal-card">
+            <div class="animal-img-wrap">
+              <img src="https://images.unsplash.com/photo-1518717758536-85ae29035b6d?w=400&q=75" alt="Coco">
+              <span class="animal-status status-available">Disponible</span>
+            </div>
+            <div class="animal-body">
+              <h3 class="animal-name">Coco</h3>
+              <div class="animal-meta">
+                <span class="animal-meta-item">🎂 6 meses</span>
+                <span class="animal-meta-item">⚖️ Pequeño</span>
+                <span class="animal-meta-item">♂️ Macho</span>
+              </div>
+              <p class="animal-breed">Beagle cruzado / Cachorro</p>
+              <a href="perfil-animal.html" class="btn-perfil">Ver perfil</a>
+            </div>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="animal-card">
+            <div class="animal-img-wrap">
+              <img src="https://images.unsplash.com/photo-1615789591457-74a63395c990?w=400&q=75" alt="Canela">
+              <span class="animal-status status-available">Disponible</span>
+            </div>
+            <div class="animal-body">
+              <h3 class="animal-name">Canela</h3>
+              <div class="animal-meta">
+                <span class="animal-meta-item">🎂 2 años</span>
+                <span class="animal-meta-item">⚖️ Pequeño</span>
+                <span class="animal-meta-item">♀️ Hembra</span>
+              </div>
+              <p class="animal-breed">Gata siamés / Naranja</p>
+              <a href="perfil-animal.html" class="btn-perfil">Ver perfil</a>
+            </div>
+          </div>
+
+          <!-- Card 7 -->
+          <div class="animal-card adopted">
+            <div class="animal-img-wrap">
+              <img src="https://images.unsplash.com/photo-1596492784531-6e6eb5ea9993?w=400&q=75" alt="Bolita">
+              <span class="animal-status status-adopted">Adoptado 🎉</span>
+            </div>
+            <div class="animal-body">
+              <h3 class="animal-name">Bolita</h3>
+              <div class="animal-meta">
+                <span class="animal-meta-item">🎂 4 meses</span>
+                <span class="animal-meta-item">⚖️ Pequeño</span>
+                <span class="animal-meta-item">♀️ Hembra</span>
+              </div>
+              <p class="animal-breed">Mestiza / Chihuahua mix</p>
+              <span class="btn-perfil">¡Ya tiene familia!</span>
+            </div>
+          </div>
+
+          <!-- Card 8 -->
+          <div class="animal-card">
+            <div class="animal-img-wrap">
+              <img src="https://images.unsplash.com/photo-1548802673-380ab8ebc7b7?w=400&q=75" alt="Sombra">
+              <span class="animal-status status-available">Disponible</span>
+            </div>
+            <div class="animal-body">
+              <h3 class="animal-name">Sombra</h3>
+              <div class="animal-meta">
+                <span class="animal-meta-item">🎂 4 años</span>
+                <span class="animal-meta-item">⚖️ Mediano</span>
+                <span class="animal-meta-item">♂️ Macho</span>
+              </div>
+              <p class="animal-breed">Gato negro / Doméstico</p>
+              <a href="perfil-animal.html" class="btn-perfil">Ver perfil</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================
+         TESTIMONIOS
+         ============================ -->
+    <section id="testimonios">
+      <div class="container">
+        <div class="testimonios-header">
+          <span class="label-tag">Historias reales</span>
+          <h2 class="section-title">Lo que dicen las <em style="font-style:italic;">familias</em></h2>
+        </div>
+
+        <div class="testimonios-grid">
+
+          <div class="testimonio-card">
+            <div class="testimonio-quote">"</div>
+            <p class="testimonio-text">
+              Adoptar a Max fue la mejor decisión de nuestra vida. El proceso con Patitas Felices fue transparente,
+              amoroso y responsable. Hoy Max llena nuestro hogar de alegría cada día.
+            </p>
+            <div class="testimonio-author">
+              <div class="testimonio-avatar">👩</div>
+              <div>
+                <div class="testimonio-name">María Fernanda G.</div>
+                <div class="testimonio-role">Adoptante · Bucaramanga</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonio-card">
+            <div class="testimonio-quote">"</div>
+            <p class="testimonio-text">
+              Ser voluntario aquí cambió mi perspectiva del mundo. Ver cómo un animal asustado y maltratado
+              vuelve a confiar en los humanos es una experiencia que no tiene precio.
+            </p>
+            <div class="testimonio-author">
+              <div class="testimonio-avatar">👨</div>
+              <div>
+                <div class="testimonio-name">Carlos Andrés R.</div>
+                <div class="testimonio-role">Voluntario · 3 años</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonio-card">
+            <div class="testimonio-quote">"</div>
+            <p class="testimonio-text">
+              Encontré a Luna tirada en la calle y no sabía qué hacer. Llamé a Patitas Felices y en minutos
+              llegaron. La recuperaron, la cuidaron, y hoy Luna vive con una familia hermosa.
+            </p>
+            <div class="testimonio-author">
+              <div class="testimonio-avatar">👩‍🦱</div>
+              <div>
+                <div class="testimonio-name">Valentina M.</div>
+                <div class="testimonio-role">Rescatadora comunitaria</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================
+         CONTACTO
+         ============================ -->
+    <section id="contacto">
+      <div class="container">
+        <div class="contacto-inner">
+
+          <div class="contacto-info">
+            <span class="label-tag">Escríbenos</span>
+            <h2>Hablemos, <br><em style="font-style:italic;color:var(--terracotta)">estamos aquí</em></h2>
+            <p>
+              Ya sea para adoptar, donar, ser voluntario o reportar un animal en situación de calle,
+              estamos disponibles para ti. Tu mensaje importa.
+            </p>
+
+            <div class="contacto-items">
+              <div class="contacto-item">
+                <div class="contacto-item-icon">📧</div>
+                <div class="contacto-item-body">
+                  <strong>Correo electrónico</strong>
+                  <span>hola@patitasfelices.org</span>
+                </div>
+              </div>
+              <div class="contacto-item">
+                <div class="contacto-item-icon">📱</div>
+                <div class="contacto-item-body">
+                  <strong>WhatsApp / Teléfono</strong>
+                  <span>+57 310 456 7890</span>
+                </div>
+              </div>
+              <div class="contacto-item">
+                <div class="contacto-item-icon">📍</div>
+                <div class="contacto-item-body">
+                  <strong>Ubicación</strong>
+                  <span>Floridablanca, Santander, Colombia</span>
+                </div>
+              </div>
+              <div class="contacto-item">
+                <div class="contacto-item-icon">⏰</div>
+                <div class="contacto-item-body">
+                  <strong>Horario de atención</strong>
+                  <span>Lunes a sábado · 8:00 am – 5:00 pm</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="redes-sociales">
+              <h4>Redes sociales</h4>
+              <div class="redes-grid">
+                <a href="#" class="red-btn">📘 Facebook</a>
+                <a href="#" class="red-btn">📸 Instagram</a>
+                <a href="#" class="red-btn">🎵 TikTok</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- FORMULARIO -->
+          <div class="form-card">
+            <h3>Envíanos un mensaje 🐾</h3>
+
+            <!-- Nota: Los estados .error y .success en algunos campos muestran cómo se vería la validación visual (CSS puro) -->
+            <p class="form-note">Los campos con <span style="color:var(--terracotta)">*</span> son obligatorios.</p>
+
+            <form action="#" method="post" novalidate>
+              <div class="form-row">
+
+                <div class="form-group success">
+                  <label for="nombre">Nombre <span class="required-mark">*</span></label>
+                  <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" value="María" required>
+                  <span class="field-hint">✓ Nombre ingresado correctamente</span>
+                </div>
+
+                <div class="form-group error">
+                  <label for="apellidos">Apellidos <span class="required-mark">*</span></label>
+                  <input type="text" id="apellidos" name="apellidos" placeholder="Tus apellidos" required>
+                  <span class="field-hint">⚠ Este campo es obligatorio</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="ciudad">Ciudad <span class="required-mark">*</span></label>
+                  <input type="text" id="ciudad" name="ciudad" placeholder="Tu ciudad" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Correo electrónico <span class="required-mark">*</span></label>
+                  <input type="email" id="email" name="email" placeholder="correo@ejemplo.com" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="telefono">Teléfono</label>
+                  <input type="tel" id="telefono" name="telefono" placeholder="+57 300 000 0000">
+                </div>
+
+                <div class="form-group">
+                  <label for="tipo">Tipo de consulta <span class="required-mark">*</span></label>
+                  <select id="tipo" name="tipo" required>
+                    <option value="" disabled selected>Selecciona una opción</option>
+                    <option value="adopcion">🐾 Adopción</option>
+                    <option value="donacion">💛 Donación</option>
+                    <option value="voluntariado">🙌 Voluntariado</option>
+                    <option value="info">ℹ️ Información general</option>
+                    <option value="otro">✉️ Otro</option>
+                  </select>
+                </div>
+
+                <div class="form-group full">
+                  <label for="mensaje">Mensaje <span class="required-mark">*</span></label>
+                  <textarea id="mensaje" name="mensaje" placeholder="Cuéntanos cómo podemos ayudarte..." required></textarea>
+                </div>
+
+              </div>
+
+              <div class="form-submit-row">
+                <p style="font-size:0.75rem;color:var(--text-soft);max-width:280px;">
+                  Al enviar este formulario aceptas nuestra política de privacidad y tratamiento de datos personales.
+                </p>
+                <button type="submit" class="btn btn-primary">Enviar mensaje 🐾</button>
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================
+       FOOTER
+       ============================ -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-top">
+
+        <div class="footer-brand">
+          <h3>🐾 Patitas Felices</h3>
+          <p>Fundación sin ánimo de lucro dedicada al rescate, rehabilitación y reubicación de animales. Construimos familias llenas de amor.</p>
+        </div>
+
+        <div class="footer-links">
+          <h4>Navegación</h4>
+          <ul>
+            <li><a href="#hero">Inicio</a></li>
+            <li><a href="#mision-vision">Nosotros</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#adoptar">Adoptar</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h4>Involúcrate</h4>
+          <ul>
+            <li><a href="#contacto">Donar</a></li>
+            <li><a href="#contacto">Voluntariado</a></li>
+            <li><a href="perfil-animal.html">Apadrinar</a></li>
+            <li><a href="#contacto">Reportar caso</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h4>Contacto</h4>
+          <ul>
+            <li><a href="mailto:hola@patitasfelices.org">hola@patitasfelices.org</a></li>
+            <li><a href="tel:+573104567890">+57 310 456 7890</a></li>
+            <li>Floridablanca, Santander</li>
+            <li>Colombia 🇨🇴</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2025 Fundación Patitas Felices · Todos los derechos reservados</p>
+        <div class="footer-email">
+          <span>📧</span>
+          <a href="mailto:hola@patitasfelices.org">hola@patitasfelices.org</a>
+        </div>
+        <p>Diseño y desarrollo: <a href="#">Juan David Castañeda</a> · Floridablanca, Santander</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
